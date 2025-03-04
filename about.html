@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Skills Section -->
+<section id="skills" class="section skills">
+    <div class="content">
+        <h2>My Skills</h2>
+        <div class="skills-gallery">
+            <!-- Existing Skills -->
+            <div class="skill-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6935wo8bLZh5FeafJEffqWKDOpNpx6UE5bg&s" alt="HTML">
+                <h3>HTML</h3>
+                <p>Markup language for creating web pages.</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyfXdKH7SrCVpLx-h0j9VSLf7LQxwWgptJNw&s" alt="CSS">
+                <h3>CSS</h3>
+                <p>Style sheet language used for describing the presentation of a document written in HTML.</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfTvKkYl6oBVPdL1xXw4ohTPuLVLh7F7EZhA&s" alt="JavaScript">
+                <h3>JavaScript</h3>
+                <p>Programming language used to create interactive effects within web browsers.</p>
+            </div>
+
+            <!-- New Skills -->
+            <div class="skill-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGCq9jjAzeHvMFAlh1GMpgRyD90OJpGh5kvw&s" alt="C">
+                <h3>C</h3>
+                <p>General-purpose programming language used for system software development.</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python">
+                <h3>Python</h3>
+                <p>High-level programming language used for general-purpose programming.</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="data:image/png;base64,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" alt="Java">
+                <h3>Java</h3>
+                <p>Object-oriented programming language used for building platform-independent applications.</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWKs639Lvg-Gdv6WQ_1Fca7Brt816H_Es1rw&s" alt="SQL">
+                <h3>SQL</h3>
+                <p>Structured Query Language used for managing relational databases.</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://www.pngitem.com/pimgs/m/346-3460443_machine-learning-course-near-me-machine-learning-logo.png" alt="Machine Learning">
+                <h3>Machine Learning</h3>
+                <p>Subset of AI that enables systems to learn from data and make decisions.</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9FRWq-NymkGrLi5XMiape5TCE-vwTf5yYYQ&s" alt="UI/UX Design">
+                <h3>UI/UX Design</h3>
+                <p>Designing user interfaces and experiences for web and mobile applications.</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="data:image/png;base64,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" alt="UI/UX Design">
+                <h3>Git</h3>
+                <p>Version control system for tracking changes in computer files and coordinating work on those files among multiple people.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience">
+        <div class="content">
+            <h2>Experience</h2>
+            <div class="experience-list">
+                <!-- Experience 1 -->
+                <div class="experience-item">
+                    <h3> Artificial Intelligence & Machine Learning Intern</h3>
+                    <p><strong>Intrainz Innovation Pvt Ltd</strong> | <em>Febraury 2024 - April 2024</em></p>
+                    <p>Designed and implemented a Machine Learning (ML)-based application to detect spam news with high accuracy, leveraging advanced algorithms to analyze and classify content efficiently.</p>
+                    <p>Focused on system scalability and performance optimization to handle large datasets, improving the overall processing speed and reliability of the application.</p>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="experience-item">
+                    <h3>Web Developer Intern</h3>
+                    <p><strong>Orinson Technologies Pvt Ltd</strong> | <em>December 2024 - Febraury 2025</em></p>
+                    <p>Designed and developed a personal profile website with responsive design and communication features, enhancing user interaction and user experience (UX).</p>
+                    <p>Created a responsive eCommerce landing page using HTML, CSS, and JavaScript, optimizing for an intuitive, mobile-friendly, and seamless shopping experience.</p>
+                </div>
+
+                <!-- Experience 3 -->
+                <div class="experience-item">
+                    <h3>Full Stack Web Developer Intern</h3>
+                    <p><strong>Battrex Solutions</strong> | <em>December 2024 - March 2025</em></p>
+                    <p>Developed and deployed a responsive website using HTML and CSS, significantly enhancing user engagement and user experience (UX) with an intuitive and mobile-friendly design.</p>
+                    <p>Optimized website performance and scalability by deploying on Netlify, ensuring high availability and reliability across all devices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+<section id="achievements" class="section achievements">
+    <div class="content">
+        <h2>Achievements</h2>
+        <div class="achievements-list">
+            <!-- Achievement 1 -->
+            <div class="achievement-item">
+                <h3>Smart India Hackathon Participant</h3>
+                <p><strong>Year:</strong> 2023</p>
+                <p>Participated in the Smart India Hackathon at the state level, contributing to innovative problem-solving in a high-pressure, collaborative environment.</p>
+                <p>Collaborated with a team to develop a solution addressing real-world challenges, showcasing strong analytical skills, coding skills, and problem-solving abilities.</p>
+            </div>
+
+            <!-- Achievement 2 -->
+            <div class="achievement-item">
+                <h3>Telangana State Innovation Council Hackathon Participant</h3>
+                <p><strong>Year:</strong> 2022</p>
+                <p>Participated in the Telangana State Innovation Council’s Menstrual Waste Hackathon, developing a sustainable solution for menstrual waste management.</p>
+                <p>Collaborated with a team to design eco-friendly alternatives, focusing on innovative solutions for waste reduction and environmental impact.</p>
+            </div>
+
+            <!-- Achievement 3 -->
+            <div class="achievement-item">
+                <h3>College Hackathon Participant</h3>
+                <p><strong>Year:</strong> 2021</p>
+                <p>Participated in a college-level hackathon focused on the development and management of smart bins for waste management solutions.</p>
+                <p>Contributed to the design and implementation of innovative, IoT-based systems for automated waste collection and smart city solutions.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 All Rights are reserverd to Chandu Nithesh </p>
+    </footer>
+
+</body>
+</html>
